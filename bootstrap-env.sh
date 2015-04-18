@@ -290,7 +290,7 @@ function build_hdf5
     info "================================="
     info "[Target Prefix: $HDF5_PREFIX]"
     cd $BUILD_DIR
-    download http://www.hdfgroup.org/ftp/HDF5/prev-releases/hdf5-1.8.7/src/ hdf5-1.8.7.tar.gz
+    download http://www.hdfgroup.org/ftp/HDF5/releases/hdf5-1.8.7/src/ hdf5-1.8.7.tar.gz
     rm -rf hdf5-1.8.7
     info "[Inflating: hdf5-1.8.7.tar.gz]"
     tar -xzf hdf5-1.8.7.tar.gz
